@@ -1,0 +1,64 @@
+* {
+    min-height: 0;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background: #181616;
+    color: #c5c9c5;
+}
+
+#custom-runner {
+    color: #c4746e;
+    font-size: 25px;
+    min-width: 50px;
+}
+
+#workspaces button {
+    min-width: 60px;
+    font-family: Symbols Nerd Font Mono;
+    font-size: 15pt;
+}
+
+#workspaces button.active {
+    background-color: #c4746e;
+}
+
+#clock {
+    background: #181616;
+    font-size: 12pt;
+    font-family: JetBrainsMono Nerd Font;
+}
+
+#tray {
+    min-width: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#wireplumber {
+    min-width: 70px;
+    font-family: JetBrainsMono Nerd Font Mono;
+    font-size: 14px;
+}
+
+#wireplumber.muted {
+    min-width: 40px;
+    font-family: JetBrainsMono Nerd Font Mono;
+    font-size: 21px;
+}
+
+#battery {
+    font-family: JetBrainsMono Nerd Font Mono;
+    min-width: 60px;
+    font-size: 14px;
+}
+
+#custom-notification {
+    min-width: 35px;
+    font-family: Symbols Nerd Font Mono;
+    font-size: 12pt;
+}
